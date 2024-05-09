@@ -1,0 +1,16 @@
+﻿@model List<Product>
+
+    <h1>We have these products</h1>
+
+    <div>
+
+    @foreach (var p in Model)
+    {
+    <div> 
+        <span>@p.Name</span>
+        <span>@p.Description</span>
+    </div>    
+    
+    }
+
+    </div>
