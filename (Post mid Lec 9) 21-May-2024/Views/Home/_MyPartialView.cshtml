@@ -1,0 +1,16 @@
+﻿<h1>this is my first partial view.</h1>
+<table>
+    <thead>
+        <th>
+            Name
+        </th>
+    </thead>
+    <tbody>
+        @foreach(var product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>
